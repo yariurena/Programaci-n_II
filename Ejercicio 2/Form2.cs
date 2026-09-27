@@ -21,6 +21,7 @@ namespace Ejercicio_2
         {
             try
             {
+                //Multiplicación
                 double numero1 = double.Parse(txtNumero1.Text);
                 double numero2 = double.Parse(txtNumero2.Text);
 

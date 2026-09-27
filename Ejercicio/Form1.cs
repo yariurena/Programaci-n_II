@@ -34,11 +34,17 @@ namespace Ejercicio
 
         private void btnSumar_Click(object sender, EventArgs e)
         {
+            //Suma
             int numero1 = int.Parse(txtNumero1.Text);
             int numero2 = int.Parse(txtNumero2.Text);
 
             int resultado = numero1 + numero2;
             lblResultado.Text = "Resultado: " + resultado;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
